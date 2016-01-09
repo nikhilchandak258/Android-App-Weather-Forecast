@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/day1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textAppearance="@style/Theme.AppCompat.Light"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ir1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:src="@drawable/clear" />
+
+                <TextView
+                    android:id="@+id/tr11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/day2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textAppearance="@style/Theme.AppCompat.Light"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ir2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:src="@drawable/clear" />
+
+                <TextView
+                    android:id="@+id/tr12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl2"
+                android:layout_marginBottom="10dp"
+                android:background="@color/day3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tr3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textAppearance="@style/Theme.AppCompat.Light"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ir3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:src="@drawable/clear" />
+
+                <TextView
+                    android:id="@+id/tr13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl3"
+                android:layout_marginBottom="10dp"
+                android:background="@color/day4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tr4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textAppearance="@style/Theme.AppCompat.Light"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ir4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:src="@drawable/clear" />
+
+                <TextView
+                    android:id="@+id/tr14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl4"
+                android:layout_marginBottom="10dp"
+                android:background="@color/day5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tr5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textAppearance="@style/Theme.AppCompat.Light"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ir5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:src="@drawable/clear" />
+
+                <TextView
+                    android:id="@+id/tr15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl5"
+                android:layout_marginBottom="10dp"
+                android:background="@color/day6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tr6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textAppearance="@style/Theme.AppCompat.Light"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ir6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:src="@drawable/clear" />
+
+                <TextView
+                    android:id="@+id/tr16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rl6"
+                android:layout_marginBottom="10dp"
+                android:background="@color/day7"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tr7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textAppearance="@style/Theme.AppCompat.Light"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ir7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:src="@drawable/clear" />
+
+                <TextView
+                    android:id="@+id/tr17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="5dp"
+                    android:text="New Text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
